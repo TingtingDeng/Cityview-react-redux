@@ -1,0 +1,27 @@
+.button {
+    border: none;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    opacity: 0.6;
+    transition: all ease-in-out 0.4s;
+    color: black;
+    outline: 1px solid grey;
+    text-decoration: none;
+}
+.button:hover {
+    opacity: 0.9;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.nav {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
